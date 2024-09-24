@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GIPL | Guj Info Petro Limited - Total IT Solutions Provider</title>
+    <meta
+      name="description"
+      content="Welcome to GIPL, your leading IT solutions provider. We specialize in bespoke software solutions tailored to your needs. Discover our services and expertise."
+    />
+    <meta
+      name="keywords"
+      content="IT solutions, software development, GIPL, IT services, technology solutions"
+    />
+
+    <!-- Links added -->
+    <link rel="icon" href="./assets/images/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/about-us-styles.css" />
+
+    <script>
+      let viewportmeta = document.querySelector('meta[name="viewport"]');
+      if (viewportmeta) {
+        if (screen.width < 375) {
+          let newScale = screen.width / 375;
+          viewportmeta.content =
+            "width=375, minimum-scale=" +
+            newScale +
+            ", maximum-scale=1.0, user-scalable=no, initial-scale=" +
+            newScale +
+            "";
+        } else {
+          viewportmeta.content =
+            "width=device-width, maximum-scale=1.0, initial-scale=1.0";
+        }
+      }
+    </script>
+  </head>
+
+  <body>
+    <!-- topbar::start -->
+    <div class="topbar padding-x">
+      <div class="global-container">
+        <div class="topbar-layout">
+          <div class="social-links">
+            <a
+              class="social-icon-box"
+              href="https://www.facebook.com/gujinfopetrolimited"
+              target="_blank"
+            >
+              <img src="./assets/misc/facebook.svg" alt="Facebook" />
+            </a>
+            <a
+              class="social-icon-box"
+              href="https://www.linkedin.com/company/gujinfopetrolimited"
+              target="_blank"
+            >
+              <img src="./assets/misc/likedin.svg" alt="LinkedIn" />
+            </a>
+            <a
+              class="social-icon-box"
+              href="https://twitter.com/gujinfopetrolimited"
+              target="_blank"
+            >
+              <img src="./assets/misc/twitter.svg" alt="Twitter" />
+            </a>
+            <a
+              class="social-icon-box"
+              href="https://www.youtube.com/gujinfopetrolimited"
+              target="_blank"
+            >
+              <img src="./assets/misc/youtube.svg" alt="Youtube" />
+            </a>
+            <!-- Social links here -->
+          </div>
+          <div class="topbar-btn-wrap">
+            <button id="newsletter" class="topbar-btn">Newsletter</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- topbar::ends -->
+
+    <!-- header::starts -->
+    <nav class="header padding-x">
+      <div class="global-container">
+        <div class="navbar-section">
+          <div class="logo-wrapper">
+            <img src="./assets/images/gipl-logo-main.png" alt="logo" />
+          </div>
+
+          <div class="main-navlink-wrap hidden">
+            <div class="nav-link">
+              <a href="index.html">Home</a>
+            </div>
+            <div class="nav-link dropdown">
+              <a href="about-us.html">About</a>
+              <div class="dropdown-content">
+                <div class="dropdown-link">
+                  <a href="about-us.html">About GIPL</a>
+                </div>
+                <div class="dropdown-link">
+                  <a href="#">Our Mission & Vision</a>
+                </div>
+                <div class="dropdown-link">
+                  <a href="#">Service Legal Agreement</a>
+                </div>
+                <div class="dropdown-link">
+                  <a href="#">ISMA Policy</a>
+                </div>
+                <div class="dropdown-link">
+                  <a href="#">Key Managerial Personnel</a>
+                </div>
+              </div>
+            </div>
+            <div class="nav-link">
+              <a href="#">Service</a>
+            </div>
+            <div class="nav-link">
+              <a href="#">Our Work</a>
+            </div>
+            <div class="nav-link">
+              <a href="#">Investors</a>
+            </div>
+            <div class="nav-link">
+              <a href="#">Tender</a>
+            </div>
+          </div>
+          <div class="nav-button hidden">
+            <a href="#" class="primary-btn">Contact Us</a>
+          </div>
+
+          <button class="header-burger" onclick="toggleMenu()">
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+          </button>
+        </div>
+        <div class="header-overlay hidden"></div>
+      </div>
+    </nav>
+    <!-- header::ends -->
+    <!-- about us banner starts -->
+    <section class="main-container">
+      <div class="content-wrapper">
+        <div class="flex-container">
+          <div class="image-column">
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/0723804e57304ea697c7a335902af7c61b484c810d2e5b3dc6e41089ccad1333?placeholderIfAbsent=true&apiKey=0d2c5822297b4fbbb2dc7196d1d272bc"
+              alt="GIPL Software Development Company"
+              class="company-image"
+            />
+          </div>
+          <div class="text-column">
+            <section class="company-info">
+              <h1 class="company-title">
+                GIPL Software Development <br />
+                Company In India
+              </h1>
+              <p class="company-description">
+                Viewing the current trend and spiraling rise of Internet
+                Services, Gujarat State Petroleum Corporation Ltd. (<span
+                  class="highlight"
+                  >GSPC A Govt. of Gujarat Undertaking</span
+                >), a pioneer in fulfilling the nation's energy needs, has
+                arisen to the technological scenario. Its conducive and
+                requisite infrastructure has now propelled it to enter
+                <span class="highlight">digital vistas</span>, which has led to
+                the formation of
+                <span class="highlight">Guj Info Petro Ltd. (GIPL)</span>. In a
+                very short time frame Guj Info Petro Ltd. has successfully
+                established itself as one of the leading TSP of Gujarat.
+              </p>
+            </section>
+          </div>
+        </div>
+        <div class="cta-container">
+          <a href="#" class="cta-button primary">EXPLORE MORE ABOUT US</a>
+          <a href="#" class="cta-button secondary">Inquire Us</a>
+        </div>
+      </div>
+    </section>
+    <!-- about us banner ends -->
+    <!-- experience section start-->
+     <section class="main-container">
+    <section class="experience-container">
+      <div class="experience-content">
+        <h2 class="experience-title">24 YEARS OF EXPERIENCE</h2>
+        <p class="experience-description">
+          AN EXPERIENCE THAT HELPS GIVE A VALUE ADDITION TO YOUR BUSINESS
+        </p>
+        <img
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/7d2111eea66eee14071014674a7931a346c9c903a67f6fcbb235f4a367a41a6c?placeholderIfAbsent=true&apiKey=0d2c5822297b4fbbb2dc7196d1d272bc"
+          alt="Experience illustration"
+          class="experience-image"
+        />
+      </div>
+    </section>
+</section>
+    <!-- experience section end -->
+
+    <!-- what-how section start -->
+
+    <div class="container">
+      <div class="left-column">
+        <div class="section-indicator">
+          <div class="dot"></div>
+          <span class="section-title">what</span>
+        </div>
+        <h1>What We Do</h1>
+        <p class="what-how-para">
+          Viewing the current trend and spiraling rise of Internet Services,
+          <span class="highlight"
+            >Gujarat State Petroleum Corporation Ltd. (GSPC A Govt. of Gujarat
+            Undertaking)</span
+          >, a pioneer infulfilling the nation's\ energy needs, has arisen to
+          the technological scenario. Its conducive and requisite infrastructure
+          has now propelled it to enter
+          <span class="highlight">digital vistas</span>, which has led to the
+          formation of
+          <span class="highlight">Guj Info Petro Ltd. (GIPL)</span>. In a very
+          short time frame Guj Info Petro Ltd. has successfully established
+          itself as one of the leading TSP of Gujarat.
+        </p>
+      </div>
+      <div class="right-column">
+        <div class="image-container">
+          <img
+            src="assets/images/pplimg.png"
+            alt="Team working together"
+            class="main-image"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="container how-section">
+      <div class="left-column">
+        <div class="image-container">
+          <img
+            src="assets/images/Mask group.png"
+            alt="Team working together"
+            class="main-image"
+          />
+        </div>
+      </div>
+      <div class="right-column">
+        <div class="section-indicator">
+          <div class="dot"></div>
+          <span class="section-title">How</span>
+        </div>
+        <h1>How We Do</h1>
+        <p class="what-how-para">
+          Viewing the current trend and spiraling rise of Internet Services,
+          <span class="highlight"
+            >Gujarat State Petroleum Corporation Ltd. (GSPC A Govt. of Gujarat
+            Undertaking)</span
+          >, a pioneer infulfilling the nation's\ energy needs, has arisen to
+          the technological scenario. Its conducive and requisite infrastructure
+          has now propelled it to enter
+          <span class="highlight">digital vistas</span>, which has led to the
+          formation of
+          <span class="highlight">Guj Info Petro Ltd. (GIPL)</span>. In a very
+          short time frame Guj Info Petro Ltd. has successfully established
+          itself as one of the leading TSP of Gujarat.
+        </p>
+      </div>
+    </div>
+
+    <!-- Work process starts -->
+
+    <!-- Work Process -->
+    <section class="work-process">
+      <div class="work-process-container">
+        <h1>OUR WORK PROCESS</h1>
+        <h2>We Solve The Task Very Easily</h2>
+        <div class="process-container">
+          <div class="process-step">
+            <div class="process-icon">📋</div>
+            <div class="process-title">Select Project</div>
+            <div class="process-description">
+              Continually engage customized infomediarie and quality growth
+              strategies. Appropriately.
+            </div>
+            <div class="process-number">01</div>
+            <div class="yellow-connector"></div>
+          </div>
+          <div class="connector"></div>
+          <div class="process-step">
+            <div class="process-icon">🖥️</div>
+            <div class="process-title">Project Analysis</div>
+            <div class="process-description">
+              Continually engage customized infomediarie and quality growth
+              strategies. Appropriately.
+            </div>
+            <div class="process-number">02</div>
+            <div class="yellow-connector"></div>
+          </div>
+          <div class="connector"></div>
+          <div class="process-step">
+            <div class="process-icon">⚙️</div>
+            <div class="process-title">Plan Execute</div>
+            <div class="process-description">
+              Continually engage customized infomediarie and quality growth
+              strategies. Appropriately.
+            </div>
+            <div class="process-number">03</div>
+            <div class="yellow-connector"></div>
+          </div>
+          <div class="connector"></div>
+          <div class="process-step">
+            <div class="process-icon">📈</div>
+            <div class="process-title">Deliver Result</div>
+            <div class="process-description">
+              Continually engage customized infomediarie and quality growth
+              strategies. Appropriately.
+            </div>
+            <div class="process-number">04</div>
+            <div class="yellow-connector"></div>
+          </div>
+          <!-- <div class="connector"></div> -->
+        </div>
+        <div class="bottom-section">
+          <div class="bottom-line"></div>
+        </div>
+      </div>
+    </section>
+    <!-- testimonials::starts -->
+    <section class="testimonials_home padding-x padding-y">
+      <div class="global-container">
+        <div class="testimonials_home-layout">
+          <div class="testimonials_home-content-top">
+            <div class="testimonials_home-content-left">
+              <div class="label-tag">
+                <img src="./assets/icons/star.svg" alt="star" />
+                <p class="tag-text">Testimonials</p>
+              </div>
+              <h4 class="testimonials_home-content-left-title">
+                Let’s Hear What They Says
+              </h4>
+            </div>
+          </div>
+          <div class="testimonials_home-content-bottom">
+            <div class="testimonials_home-content-bottom-slider">
+              <div class="testimonials_home-content-bottom-slider-track">
+                <div class="testimonials_home-content-bottom-slider-item">
+                  <div class="testimonials_home-top-content">
+                    <div
+                      class="testimonials_home-content-bottom-slider-item-stars"
+                    >
+                      <img src="./assets/icons/star-1.svg" alt="star" />
+                      <img src="./assets/icons/star-1.svg" alt="star" />
+                      <img src="./assets/icons/star-1.svg" alt="star" />
+                      <img src="./assets/icons/star-1.svg" alt="star" />
+                      <img src="./assets/icons/star-1.svg" alt="star" />
+                    </div>
+                    <div class="testimonials_home-review">
+                      <p>
+                        Gipl's dedicated team has executed the project most
+                        admirably for Gujarat Samras Chhatralaya Soclety. The
+                        project has been appreciated at all levels.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="testimonials_home-bottom-content">
+                    <div class="testimonials_home-bottom-content-left">
+                      <img
+                        src="./assets/images/testimonial-1.png"
+                        alt="testimonial-1"
+                      />
+                    </div>
+                    <div class="testimonials_home-bottom-content-right">
+                      <h4 class="testimonials_home-bottom-content-right-title">
+                        Rajesh Kumar
+                      </h4>
+                      <p
+                        class="testimonials_home-bottom-content-right-subtitle"
+                      >
+                        CEO, Gujarat Samras Chhatralaya Soclety
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="testimonials_home-content-bottom-slider-item">
+                  <div class="testimonials_home-top-content">
+                    <div
+                      class="testimonials_home-content-bottom-slider-item-stars"
+                    >
+                      <img src="./assets/icons/star-1.svg" alt="star" />
+                      <img src="./assets/icons/star-1.svg" alt="star" />
+                      <img src="./assets/icons/star-1.svg" alt="star" />
+                      <img src="./assets/icons/star-1.svg" alt="star" />
+                      <img src="./assets/icons/star-1.svg" alt="star" />
+                    </div>
+                    <div class="testimonials_home-review">
+                      <p>
+                        Gipl's dedicated team has executed the project most
+                        admirably for Gujarat Samras Chhatralaya Soclety. The
+                        project has been appreciated at all levels.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="testimonials_home-bottom-content">
+                    <div class="testimonials_home-bottom-content-left">
+                      <img
+                        src="./assets/images/testimonial-1.png"
+                        alt="testimonial-1"
+                      />
+                    </div>
+                    <div class="testimonials_home-bottom-content-right">
+                      <h4 class="testimonials_home-bottom-content-right-title">
+                        Rajesh Kumar
+                      </h4>
+                      <p
+                        class="testimonials_home-bottom-content-right-subtitle"
+                      >
+                        CEO, Gujarat Samras Chhatralaya Soclety
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="testimonials_home-content-bottom-slider-item">
+                  <div class="testimonials_home-top-content">
+                    <div
+                      class="testimonials_home-content-bottom-slider-item-stars"
+                    >
+                      <img src="./assets/icons/star-1.svg" alt="star" />
+                      <img src="./assets/icons/star-1.svg" alt="star" />
+                      <img src="./assets/icons/star-1.svg" alt="star" />
+                      <img src="./assets/icons/star-1.svg" alt="star" />
+                      <img src="./assets/icons/star-1.svg" alt="star" />
+                    </div>
+                    <div class="testimonials_home-review">
+                      <p>
+                        Gipl's dedicated team has executed the project most
+                        admirably for Gujarat Samras Chhatralaya Soclety. The
+                        project has been appreciated at all levels.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="testimonials_home-bottom-content">
+                    <div class="testimonials_home-bottom-content-left">
+                      <img
+                        src="./assets/images/testimonial-1.png"
+                        alt="testimonial-1"
+                      />
+                    </div>
+                    <div class="testimonials_home-bottom-content-right">
+                      <h4 class="testimonials_home-bottom-content-right-title">
+                        Rajesh Kumar
+                      </h4>
+                      <p
+                        class="testimonials_home-bottom-content-right-subtitle"
+                      >
+                        CEO, Gujarat Samras Chhatralaya Soclety
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="testimonials_home-content-bottom-slider-item">
+                  <div class="testimonials_home-top-content">
+                    <div
+                      class="testimonials_home-content-bottom-slider-item-stars"
+                    >
+                      <img src="./assets/icons/star-1.svg" alt="star" />
+                      <img src="./assets/icons/star-1.svg" alt="star" />
+                      <img src="./assets/icons/star-1.svg" alt="star" />
+                      <img src="./assets/icons/star-1.svg" alt="star" />
+                      <img src="./assets/icons/star-1.svg" alt="star" />
+                    </div>
+                    <div class="testimonials_home-review">
+                      <p>
+                        Gipl's dedicated team has executed the project most
+                        admirably for Gujarat Samras Chhatralaya Soclety. The
+                        project has been appreciated at all levels.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="testimonials_home-bottom-content">
+                    <div class="testimonials_home-bottom-content-left">
+                      <img
+                        src="./assets/images/testimonial-1.png"
+                        alt="testimonial-1"
+                      />
+                    </div>
+                    <div class="testimonials_home-bottom-content-right">
+                      <h4 class="testimonials_home-bottom-content-right-title">
+                        Rajesh Kumar
+                      </h4>
+                      <p
+                        class="testimonials_home-bottom-content-right-subtitle"
+                      >
+                        CEO, Gujarat Samras Chhatralaya Soclety
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="testimonials_home-content-bottom-slider-item">
+                  <div class="testimonials_home-top-content">
+                    <div
+                      class="testimonials_home-content-bottom-slider-item-stars"
+                    >
+                      <img src="./assets/icons/star-1.svg" alt="star" />
+                      <img src="./assets/icons/star-1.svg" alt="star" />
+                      <img src="./assets/icons/star-1.svg" alt="star" />
+                      <img src="./assets/icons/star-1.svg" alt="star" />
+                      <img src="./assets/icons/star-1.svg" alt="star" />
+                    </div>
+                    <div class="testimonials_home-review">
+                      <p>
+                        Gipl's dedicated team has executed the project most
+                        admirably for Gujarat Samras Chhatralaya Soclety. The
+                        project has been appreciated at all levels.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="testimonials_home-bottom-content">
+                    <div class="testimonials_home-bottom-content-left">
+                      <img
+                        src="./assets/images/testimonial-1.png"
+                        alt="testimonial-1"
+                      />
+                    </div>
+                    <div class="testimonials_home-bottom-content-right">
+                      <h4 class="testimonials_home-bottom-content-right-title">
+                        Rajesh Kumar
+                      </h4>
+                      <p
+                        class="testimonials_home-bottom-content-right-subtitle"
+                      >
+                        CEO, Gujarat Samras Chhatralaya Soclety
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="testimonials_home-content-bottom-slider-item">
+                  <div class="testimonials_home-top-content">
+                    <div
+                      class="testimonials_home-content-bottom-slider-item-stars"
+                    >
+                      <img src="./assets/icons/star-1.svg" alt="star" />
+                      <img src="./assets/icons/star-1.svg" alt="star" />
+                      <img src="./assets/icons/star-1.svg" alt="star" />
+                      <img src="./assets/icons/star-1.svg" alt="star" />
+                      <img src="./assets/icons/star-1.svg" alt="star" />
+                    </div>
+                    <div class="testimonials_home-review">
+                      <p>
+                        Gipl's dedicated team has executed the project most
+                        admirably for Gujarat Samras Chhatralaya Soclety. The
+                        project has been appreciated at all levels.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="testimonials_home-bottom-content">
+                    <div class="testimonials_home-bottom-content-left">
+                      <img
+                        src="./assets/images/testimonial-1.png"
+                        alt="testimonial-1"
+                      />
+                    </div>
+                    <div class="testimonials_home-bottom-content-right">
+                      <h4 class="testimonials_home-bottom-content-right-title">
+                        Rajesh Kumar
+                      </h4>
+                      <p
+                        class="testimonials_home-bottom-content-right-subtitle"
+                      >
+                        CEO, Gujarat Samras Chhatralaya Soclety
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- </div> -->
+    </section>
+    <!-- testimonials::ends -->
+
+    <!-- Achievements start-->
+
+    <main class="success-stories">
+      <section class="achievement-section">
+        <div class="achieve-content">
+          <p class="success-label">SUCCESS</p>
+          <h1 class="achievement-title">Our Success Stories</h1>
+        </div>
+        <div class="achievement-images">
+          <img
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/9d95a2864ef03709ec970d44f1e298882fd82edf2c75400a3c2f638f562911dd?placeholderIfAbsent=true&apiKey=0d2c5822297b4fbbb2dc7196d1d272bc"
+            alt="Success story illustration 1"
+            class="achieve-image"
+          />
+          <img
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/66b3d55b9d4078c1619ff2d5b44022deabd89c6216bb145636bdb829c493bbd0?placeholderIfAbsent=true&apiKey=0d2c5822297b4fbbb2dc7196d1d272bc"
+            alt="Success story illustration 2"
+            class="achieve-image"
+          />
+        </div>
+      </section>
+      <section class="achievements">
+        <article class="achievement-card">
+          <img
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/1514da30808019f74dcb7abd898bb0325bc397d7b0948dbffac4d66613b8563f?placeholderIfAbsent=true&apiKey=0d2c5822297b4fbbb2dc7196d1d272bc"
+            alt="National Telecom Award"
+            class="achievement-image"
+          />
+          <div class="achievement-content">
+            <h2 class="achievement-title">
+              GIPL bags National Telecom Award for Innovative Te...
+            </h2>
+            <p class="achievement-description">
+              Guj Info Petro Ltd., the IT arm of Gujarat State Petroleum
+              Corporation Ltd has been conferred with the National Telecom Award
+              for "Innovative Telecom Application Services", at the 6th National
+              ...
+            </p>
+            <a href="#" class="explore-link">
+              Explore More
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/12fb89cb1b37e2639e4e44795352408279e3abaa66265f37410b18ba313ad6e0?placeholderIfAbsent=true&apiKey=0d2c5822297b4fbbb2dc7196d1d272bc"
+                alt="Arrow icon"
+                class="arrow-icon"
+              />
+            </a>
+          </div>
+        </article>
+        <article class="achievement-card">
+          <img
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/c79081a1109d8896c327990d29bf5d77f9e448e73798fe1d04d2383899c7c2ae?placeholderIfAbsent=true&apiKey=0d2c5822297b4fbbb2dc7196d1d272bc"
+            alt="National UP Education Awards"
+            class="achievement-image"
+          />
+          <div class="achievement-content">
+            <h2 class="achievement-title">
+              GIPL Won National UP Education Awards - 2013
+            </h2>
+            <p class="achievement-description">
+              It is a matter of proud and prestige for GSPC group employees that
+              GIPL has won the following two most prestigious "National UP
+              Education Awards 2013"...
+            </p>
+            <a href="#" class="explore-link">
+              Explore More
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/12fb89cb1b37e2639e4e44795352408279e3abaa66265f37410b18ba313ad6e0?placeholderIfAbsent=true&apiKey=0d2c5822297b4fbbb2dc7196d1d272bc"
+                alt="Arrow icon"
+                class="arrow-icon"
+              />
+            </a>
+          </div>
+        </article>
+        <article class="achievement-card">
+          <img
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/97306f9ca7478835efc6f2d37aaf9a31fbaa1302c33155e419fe19babcaaeecf?placeholderIfAbsent=true&apiKey=0d2c5822297b4fbbb2dc7196d1d272bc"
+            alt="GESIA Award"
+            class="achievement-image"
+          />
+          <div class="achievement-content">
+            <h2 class="achievement-title">
+              GIPL Won GESIA Award for Best Innovation By An....
+            </h2>
+            <p class="achievement-description">
+              GIPL the IT arm of GSPC has bagged the award for "BEST INNOVATION
+              BY AN ICT COMPANY" in Gujarat from Gujarat Electronics & Software
+              Industries Association (GESIA) in its 5th...
+            </p>
+            <a href="#" class="explore-link">
+              Explore More
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/12fb89cb1b37e2639e4e44795352408279e3abaa66265f37410b18ba313ad6e0?placeholderIfAbsent=true&apiKey=0d2c5822297b4fbbb2dc7196d1d272bc"
+                alt="Arrow icon"
+                class="arrow-icon"
+              />
+            </a>
+          </div>
+        </article>
+      </section>
+      <img
+        src="https://cdn.builder.io/api/v1/image/assets/TEMP/13657bbe8f376f4548539295bb15a795b2b8bc58d9db68200fd43ba1f2466fb8?placeholderIfAbsent=true&apiKey=0d2c5822297b4fbbb2dc7196d1d272bc"
+        alt="Company logo"
+        class="just-logo"
+      />
+    </main>
+
+    <!-- clients::starts -->
+    <section class="clients_home padding-x padding-y">
+      <div class="global-container">
+        <div class="clients_home-layout">
+          <div class="clients_home-content-top">
+            <div class="clients_home-content-left">
+              <div class="label-tag">
+                <img src="./assets/icons/star.svg" alt="star" />
+                <p class="tag-text">Support</p>
+              </div>
+              <h4 class="clients_home-content-left-title">Our Client Galaxy</h4>
+            </div>
+          </div>
+          <div class="clients_home-content-bottom">
+            <div class="clients_home-content-bottom-image">
+              <img src="./assets/images/galaxxy-img.png" alt="client-galaxy" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- clients::ends -->
+
+    <!-- footer::starts -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="global-container">
+          <div class="footer-layout">
+            <!-- Footer Menu Links -->
+            <div class="footer-menu">
+              <a href="#" class="footer-menu-link">
+                <p class="footer-menu-link-text">Home</p>
+              </a>
+              <a href="#" class="footer-menu-link">
+                <p class="footer-menu-link-text">Careers</p>
+              </a>
+              <a href="#" class="footer-menu-link">
+                <p class="footer-menu-link-text">About GIPL</p>
+              </a>
+              <a href="#" class="footer-menu-link">
+                <p class="footer-menu-link-text">Contact</p>
+              </a>
+              <a href="#" class="footer-menu-link">
+                <p class="footer-menu-link-text">Terms of Use</p>
+              </a>
+              <a href="#" class="footer-menu-link">
+                <p class="footer-menu-link-text">ISMS Policy</p>
+              </a>
+              <a class="footer-menu-link">
+                <p class="footer-menu-link-text">Privacy Policy</p>
+              </a>
+              <a href="#" class="footer-menu-link">
+                <p class="footer-menu-link-text">Mobile Privacy Policy</p>
+              </a>
+            </div>
+
+            <!-- Footer Main Section -->
+            <div class="footer-main">
+              <div class="footer-main-right">
+                <div class="footer-right-logo">
+                  <img
+                    class="footer-right-logo-img"
+                    src="./assets/images/gipl-logo-main.png"
+                    alt="GIPL Logo"
+                  />
+                </div>
+                <div class="footer-right-content">
+                  <p class="footer-right-content-text">
+                    2nd Floor, Block-15, Udhyog Bhavan, Sector-11, Gandhinagar –
+                    382011.
+                  </p>
+                </div>
+                <div class="footer-right-social">
+                  <a href="#" class="footer-right-social-icon">
+                    <img
+                      src="./assets/icons/emailicon.svg"
+                      alt="Email Icon"
+                      class="footer-right-social-icon-img"
+                    />
+                  </a>
+                  <a href="#" class="footer-right-social-icon">
+                    <img
+                      src="./assets/icons/linkedinicon.svg"
+                      alt="Linkedin Icon"
+                      class="footer-right-social-icon-img"
+                    />
+                  </a>
+                  <a href="#" class="footer-right-social-icon">
+                    <img
+                      src="./assets/icons/twittericon.svg"
+                      alt="Twitter Icon"
+                      class="footer-right-social-icon-img"
+                    />
+                  </a>
+                  <a href="#" class="footer-right-social-icon">
+                    <img
+                      src="./assets/icons/facebookicon.svg"
+                      alt="Facebook Icon"
+                      class="footer-right-social-icon-img"
+                    />
+                  </a>
+                  <a href="#" class="footer-right-social-icon">
+                    <img
+                      src="./assets/icons/phoneicon.svg"
+                      alt="Phone Icon"
+                      class="footer-right-social-icon-img"
+                    />
+                  </a>
+                  <a href="#" class="footer-right-social-icon">
+                    <img
+                      src="./assets/icons/phoneicon2.svg"
+                      alt="Phone Icon 2"
+                      class="footer-right-social-icon-img"
+                    />
+                  </a>
+                  <a href="#" class="footer-right-social-icon">
+                    <img
+                      src="./assets/icons/youtubeicon.svg"
+                      alt="YouTube Icon"
+                      class="footer-right-social-icon-img"
+                    />
+                  </a>
+                </div>
+              </div>
+
+              <!-- Footer Left Menu Section -->
+              <div class="footer-main-left">
+                <div class="footer-left-menu">
+                  <p class="footer-left-menu-text">Web Design</p>
+                  <a href="#" class="footer-left-menu-link">
+                    <p class="footer-left-menu-link-text">
+                      Web Application Design
+                    </p>
+                  </a>
+                  <a href="#" class="footer-left-menu-link">
+                    <p class="footer-left-menu-link-text">
+                      Open Source Theme Design
+                    </p>
+                  </a>
+                  <a class="footer-left-menu-link">
+                    <p class="footer-left-menu-link-text">
+                      PSD to HTML Conversion
+                    </p>
+                  </a>
+                  <a href="#" class="footer-left-menu-link">
+                    <p class="footer-left-menu-link-text">Website Design</p>
+                  </a>
+                  <a href="#" class="footer-left-menu-link">
+                    <p class="footer-left-menu-link-text">Integrations</p>
+                  </a>
+                  <a href="#" class="footer-left-menu-link">
+                    <p class="footer-left-menu-link-text">Pricing</p>
+                  </a>
+                </div>
+
+                <div class="footer-left-menu">
+                  <p class="footer-left-menu-text">Web Development</p>
+                  <a href="#" class="footer-left-menu-link">
+                    <p class="footer-left-menu-link-text">
+                      ASP Net Application Development
+                    </p>
+                  </a>
+                  <a href="#" class="footer-left-menu-link">
+                    <p class="footer-left-menu-link-text">
+                      eCommerce Development
+                    </p>
+                  </a>
+                  <a href="#" class="footer-left-menu-link">
+                    <p class="footer-left-menu-link-text">
+                      Database Application
+                    </p>
+                  </a>
+                  <a href="#" class="footer-left-menu-link">
+                    <p class="footer-left-menu-link-text">Mobile Application</p>
+                  </a>
+                  <a href="#" class="footer-left-menu-link">
+                    <p class="footer-left-menu-link-text">
+                      Software Development
+                    </p>
+                  </a>
+                </div>
+
+                <div class="footer-left-menu">
+                  <p class="footer-left-menu-text">Web Hosting</p>
+                  <a href="#" class="footer-left-menu-link">
+                    <p class="footer-left-menu-link-text">
+                      REC Mountable Server with ECC
+                    </p>
+                  </a>
+                  <a href="#" class="footer-left-menu-link">
+                    <p class="footer-left-menu-link-text">
+                      Dedicated Data Pipe
+                    </p>
+                  </a>
+                  <a href="#" class="footer-left-menu-link">
+                    <p class="footer-left-menu-link-text">
+                      Comprehensive Power Backup
+                    </p>
+                  </a>
+                  <a href="#" class="footer-left-menu-link">
+                    <p class="footer-left-menu-link-text">
+                      Temperature Controlled
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Footer Copyright -->
+            <div class="footer-copyright">
+              <p class="footer-copyright-text">
+                © Copyrights 2024 GIPL - An ISO 27001:2013, ISO 9001:2015
+                Certified Company. All rights reserved.
+              </p>
+              <p class="footer-copyright-text">
+                <a href="https://www.gipl.in/" target="_blank"
+                  >Developed by
+                  <span class="footer-copyright-text-span"
+                    >Guj Info Petro Limited</span
+                  ></a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer::ends -->
+    <!-- </section> -->
+  </body>
+</html>
